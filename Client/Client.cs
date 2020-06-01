@@ -12,7 +12,7 @@ namespace Client
         public Client()
         {
             connection = new HubConnectionBuilder()
-                .WithUrl("https://localhost:44361/hardwareInfo")
+                .WithUrl("https://localhost:44346/hardwareInfo")
                 .Build();
             connection.Closed += async (error) =>
             {
